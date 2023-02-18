@@ -1,0 +1,20 @@
+
+public class TestCaracteres {
+	
+	public static void main(String[] args) { //podemos usar ctrl + espace para declarar el main
+		
+		char letra = 'a'; //En char solo podemos usar comillas simples y un caracter, si suamos numeros, se iran a caracter usando la tabla Unicode
+		System.out.println(letra);
+		
+		char valor = 65; 
+		System.out.println(valor); //Aqui el ejemplo que se usara la tabla Unicode
+		
+		//valor = valor + 1; Si quitamos el comentaio se vera que no compila ya que el valor mas grande es int
+		
+		valor = (char) (valor + 1); //Aqui si compila
+		System.out.println(valor);
+		
+		
+	}
+
+}

@@ -1,0 +1,10 @@
+
+class Cuenta {
+	
+	//Este seria nuestroi esqueleto u objeto
+
+	double saldo;
+	int agencia;
+	int numero;
+	String titular;
+}

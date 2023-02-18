@@ -1,0 +1,13 @@
+
+public class TestReferencia {
+	public static void main(String[] args) {
+		
+		Cliente diego = new Cliente();
+		diego.nombre = "Diego";
+		diego.numeroIdentidad = "333546";
+		diego.profesion = "Doctor";
+		
+		Cuenta cuentaDeDiego = new Cuenta ();
+		
+	}
+}

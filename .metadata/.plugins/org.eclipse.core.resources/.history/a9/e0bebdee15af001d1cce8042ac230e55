@@ -1,0 +1,21 @@
+
+public class TestMetodos {
+	public static void main(String[] args) {
+
+		Cuenta miCuenta = new Cuenta();
+		miCuenta.saldo = 300;
+
+		System.out.println(miCuenta.saldo);
+
+		miCuenta.deposita(500);
+		System.out.println(miCuenta.saldo);
+
+		miCuenta.retiro(200);
+		System.out.println(miCuenta.saldo);
+
+		Cuenta cuentaXimena = new Cuenta();
+
+		miCuenta.transferir(200, cuentaXimena);
+		System.out.println(cuentaXimena.saldo);
+	}
+}

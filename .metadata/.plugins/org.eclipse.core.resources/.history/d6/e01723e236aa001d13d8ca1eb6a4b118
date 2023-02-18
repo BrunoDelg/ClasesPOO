@@ -1,0 +1,14 @@
+
+public class TestCaracteres {
+	
+	public static void main(String[] args) { //podemos usar ctrl + espace para declarar el main
+		
+		char letra = 'a'; //En char solo podemos usar comillas simples y un caracter, si suamos numeros, se iran a caracter usando la tabla 
+		System.out.println(letra);
+		
+		char valor = 65; 
+		System.out.println(valor);
+		
+	}
+
+}

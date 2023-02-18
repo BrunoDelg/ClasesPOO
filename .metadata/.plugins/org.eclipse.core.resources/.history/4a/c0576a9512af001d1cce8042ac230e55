@@ -1,0 +1,12 @@
+
+class Cuenta {
+	
+	//Este seria nuestro esqueleto mejor conocido como clase
+	//Una clase es un conjunto de comportamientos y cracteristicas que definen el conjunto
+	//de objetos pertenecientes a la clase
+
+	double saldo;
+	int agencia;
+	int numero;              //Estos son nuestros atributos a lo cuales vamos a asignar valores
+	String titular;
+}

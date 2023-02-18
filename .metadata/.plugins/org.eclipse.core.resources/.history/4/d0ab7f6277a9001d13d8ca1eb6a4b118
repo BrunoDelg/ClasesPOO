@@ -1,0 +1,10 @@
+
+public class TestConversion {
+	public static void main(String[] args) {
+		
+		double salario = 1270.50;
+		int valor = (int) salario;  //A esto se le llama Cast.
+		
+		System.out.println(valor);
+	}
+}

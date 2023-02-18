@@ -1,0 +1,8 @@
+
+public class TestReferencia2 {
+	public static void main(String[] args) {
+		
+		Cuenta cuentaDeDiego = new Cuenta ();
+		cuentaDeDiego.titular.nombre = "Diego";
+		
+	}

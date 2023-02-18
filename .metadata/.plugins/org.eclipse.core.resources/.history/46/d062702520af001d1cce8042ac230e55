@@ -1,0 +1,15 @@
+
+public class TestReferencia2 {
+	public static void main(String[] args) {
+		
+		Cuenta cuentaDeDiego = new Cuenta ();
+		//cuentaDeDiego.titular.nombre = "Diego"; Este no compilara ya que no se ah iniciado la variable
+		//Ejemplo:       null. value
+		
+		Cliente diego2 = new Cliente();
+		cuentaDeDiego.titular = diego2;
+		
+		System.out.println(cuentaDeDiego.titular.nombre);
+		
+		
+	}

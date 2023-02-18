@@ -1,0 +1,17 @@
+
+public class TestConversion {
+	public static void main(String[] args) {
+		
+		double salario = 1270.50;
+		int valor = (int) salario;  //A esto se le llama Cast, lo estamos forzando a que nos de otro valor diferente.
+		
+		System.out.println(valor);
+		
+		double valor1 = 0.2;
+		double valor2 = 0.1;
+		System.out.println(valor1 + valor2);
+		
+		//El float nos ayuda como el double solo que este es de 32 bits, por lo que almacena menos digitos, se coloca una F al final
+		float puntoFlotante = 3.14F;
+	}
+}

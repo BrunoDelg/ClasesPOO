@@ -1,0 +1,26 @@
+
+class Cuenta {
+	
+	//Este seria nuestro esqueleto mejor conocido como clase
+	//Una clase es un conjunto de comportamientos y cracteristicas que definen el conjunto
+	//de objetos pertenecientes a la clase
+
+	double saldo;
+	int agencia;
+	int numero;              //Estos son nuestros atributos a lo cuales vamos a asignar valores
+	String titular;
+	
+	public void deposita (double valor) { //Este es nuestro metodo agregamos el void cuando no 
+		                                  //no queremos que nos retorne ningun valor
+		this.saldo += valor; //Con this especificamos que es this object
+	}
+	
+	public boolean retiro (double valor) {
+		if (this.saldo >= valor) {
+			this.saldo -= valor;
+			return true;
+		} else {
+			return false;
+		}
+	}
+}

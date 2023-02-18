@@ -1,0 +1,8 @@
+
+public class TestCondicional {
+	
+	public static void main(String[] args) {
+		System.out.println("Creando condicionales");
+	}
+
+}

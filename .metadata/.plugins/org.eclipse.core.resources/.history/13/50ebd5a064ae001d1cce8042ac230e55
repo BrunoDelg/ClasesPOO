@@ -1,0 +1,30 @@
+
+public class CreaCuenta {
+	//Esta cuenta hace referencia a una instancia
+	public static void main(String[] args) {
+		
+		Cuenta primeraCuenta = new Cuenta();  //new es la manera de decir que cree un nuevo espacio
+		                                      //en memoria e inicializa las variables que tenemos
+		                                      //en el objeto y la Variable seria la referencia
+		                                      // a ese espacio en memoria
+		primeraCuenta.saldo = 200; //Asi agregamos valores 
+		System.out.println(primeraCuenta.saldo);
+		
+		primeraCuenta.saldo += 100;
+		System.out.println(primeraCuenta.saldo);
+		
+		Cuenta segundaCuenta = primeraCuenta; //Aqui se esta referenciado al mismo espacio en memoria
+		segundaCuenta.saldo = 50;
+		
+		System.out.println(segundaCuenta.saldo);
+		System.out.println(segundaCuenta);
+		System.out.println(primeraCuenta);// Como vemos aqui estan los mismo IDs
+		
+		Cuenta terceraCuenta = new Cuenta(); //Este ya sera una nueva cuenta y va entre parentesis
+		                                     //por que se referencia a la Cuenta (la clase)
+		terceraCuenta.saldo = 200;
+		
+		System.out.println(terceraCuenta.saldo);
+		System.out.println(primeraCuenta.saldo);
+	}
+}

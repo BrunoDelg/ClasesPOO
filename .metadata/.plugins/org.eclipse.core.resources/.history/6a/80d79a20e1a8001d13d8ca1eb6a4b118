@@ -1,0 +1,11 @@
+
+public class tipoVariable {
+	public static void main(String[] args) {
+		System.out.println("Hola mundo");
+		
+		//int sirve para decalarar variables enteros
+		int edad = 28;
+		
+		System.out.println("La edad es" + edad);
+	}
+}

@@ -1,0 +1,18 @@
+
+public class TestReferencia {
+	public static void main(String[] args) {
+		
+		Cliente diego = new Cliente();
+		diego.nombre = "Diego";
+		diego.numeroIdentidad = "333546";
+		diego.profesion = "Doctor";
+		
+		Cuenta cuentaDeDiego = new Cuenta ();
+		cuentaDeDiego.deposita(300);
+		cuentaDeDiego.titular = diego; //De esta manera los relacionamos al cliente y cuenta
+		System.out.println(cuentaDeDiego.titular.numeroIdentidad); //Ya podemos acceder a cliente desde
+		                                                           //Cuenta
+		System.out.println(cuentaDeDiego.titular); //Nos da la direccion de memoria
+		System.out.println(diego); //Como vemos aqui tambien hace referencia al mismo espacio en memoria
+	}
+}

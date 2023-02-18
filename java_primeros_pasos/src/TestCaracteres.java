@@ -1,0 +1,26 @@
+
+public class TestCaracteres {
+	
+	public static void main(String[] args) { //podemos usar ctrl + espace para declarar el main
+		
+		char letra = 'a'; //En char solo podemos usar comillas simples y un caracter, si suamos numeros, se iran a caracter usando la tabla Unicode
+		System.out.println(letra);
+		
+		char valor = 65; 
+		System.out.println(valor); //Aqui el ejemplo que se usara la tabla Unicode
+		
+		//valor = valor + 1; Si quitamos el comentaio se vera que no compila ya que el valor mas grande es int
+		
+		valor = (char) (valor + 1); //Aqui si compila, encerramos entre parentesis dando a entender a java que la suma la quieremos en char
+		System.out.println(valor);
+		
+		String palabra = "Alura cursos de tecnologia "; //String nos ayuda a utilizar palabras y usamos comillas dobles, a diferencia de los otros valores String no es primitivo, es un objeto
+		System.out.println(palabra);
+		
+		palabra = palabra + 2020;
+		System.out.println(palabra);
+		
+		
+	}
+
+}
